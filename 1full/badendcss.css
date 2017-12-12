@@ -1,0 +1,28 @@
+*{
+	margin:0px;
+	
+}
+img{
+	position: absolute;
+	width:1500px;
+	height:700px;
+	z-index: -1;
+}
+#end{
+	border:2px solid #1a3144;
+	background:#e1b272;
+	position:static;
+	width:150px;
+	height:18px;
+	text-align:center;
+	-webkit-transform:translate(1000px, 470px);
+}
+#replay{
+	border:2px solid #1a3144;
+	background:#e1b272;
+	position:static;
+	width:150px;
+	height:18px;
+	text-align:center;
+	-webkit-transform:translate(1000px, 500px);
+}

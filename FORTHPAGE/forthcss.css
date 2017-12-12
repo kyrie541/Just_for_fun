@@ -1,0 +1,57 @@
+*{
+	margin:0px;
+}
+img{
+	position: absolute;
+	width:1500px;
+	height:700px;
+	z-index: -1;
+}
+#zombie{
+	border:5px solid red;
+	width:150px;
+	height:250px;
+	position:static;
+	-webkit-transform:translate(190px, 280px);	
+	color: white;
+	text-align:center;
+}
+#peter{
+	border:5px solid orange;
+	width:150px;
+	height:250px;
+	position:static;
+	-webkit-transform:translate(550px, 30px);
+	color: white;
+	text-align:center;
+}
+#anne{
+	border:5px solid yellow;
+	width:150px;
+	height:250px;
+	position:static;
+	-webkit-transform:translate(830px, -230px);	
+	color: white;
+	text-align:center;
+}
+#my_leg{
+	border:5px solid blue;
+	width:210px;
+	height:60px;
+	position:static;
+	-webkit-transform:translate(640px, -160px);
+	color: white;
+	text-align:center;
+}
+#zombie:hover{
+	border:5px solid grey;
+}
+#peter:hover{
+	border:5px solid grey;
+}
+#anne:hover{
+	border:5px solid grey;
+}
+#my_leg:hover{
+	border:5px solid grey;
+}
